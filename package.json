@@ -1,0 +1,35 @@
+{
+	"name": "hf-pet-memorial-2019",
+	"slug": "hf-pet-memorial-2019",
+	"description": "WordPress theme for HF Pet Memorial, created by Pineapple Web Design.",
+	"version": "1.0.0",
+	"devDependencies": {
+		"autoprefixer": "~8.5.2",
+		"cssnano": "~3.10.0",
+		"grunt": "^1.0.4",
+		"grunt-checktextdomain": "^1.0.1",
+		"grunt-contrib-sass": "~1.0.0",
+		"grunt-contrib-watch": "~1.1.0",
+		"grunt-postcss": "~0.9.0",
+		"grunt-sass": "~2.1.0",
+		"grunt-text-replace": "~0.4.0",
+		"grunt-wp-readme-to-markdown-with-extra": "~2.2.0",
+		"gulp": "^4.0.2",
+		"gulp-add-src": "^1.0.0",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssmin": "^0.2.0",
+		"gulp-order": "^1.2.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-series": "^1.0.2",
+		"gulp-uglify": "^3.0.1",
+		"load-grunt-tasks": "^4.0.0",
+		"matchdep": "~2.0.0",
+		"susy": "^2.2.14"
+	},
+	"dependencies": {
+		"grunt-autoprefixer": "^3.0.4",
+		"grunt-cssnano": "^2.1.0"
+	}
+}

@@ -1,0 +1,92 @@
+/**
+ * Forms
+ */
+body,
+.woocommerce {
+
+    form:not(.give-form) {
+        border: none;
+        border-radius: 0;
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"],
+        select,
+        textarea {
+            background: #eee;
+            border: none;
+            border-radius: 7px;
+            padding: 15px 20px;
+            font-weight: 300;
+
+            &:focus {
+                background: #f3f3f3;
+            }
+        }
+
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            padding: 15px 45px 15px 20px;
+            //background-color: #fff;
+            background-image: url('assets/images/dropdown-arrow-15.png');
+            background-repeat: no-repeat;
+            background-position: right 20px top 20px;
+            border: none;
+            border-radius: 7px;
+            font-family: $body_font;
+            color: #666;
+        }
+
+        label {
+            margin-right: 20px;
+        }
+
+        fieldset {
+            padding: 0;
+
+            legend {
+                padding: 20px 0 10px 0;
+            }
+        }
+    }
+}
+
+body {
+
+    .give-form-wrap {
+
+        #give-gateway-radio-list {
+
+            label#give-gateway-option-stripe:after {
+                content: url('assets/images/credit-cards.png');
+                display: inline-block;
+                vertical-align: middle;
+                margin: 10px;
+            }
+
+            label#give-gateway-option-paypal:after {
+                content: url('assets/images/paypal.png');
+                display: inline-block;
+                vertical-align: middle;
+                margin: 10px;
+            }
+        }
+
+        /*
+        form {
+
+            select,
+            select.give-recurring-donors-choice-period,
+            select.give-cs-select-currency {
+                width: 100px;
+                background-position: right 10px top 17px;
+                padding: 10px;
+                height: 40px;
+            }
+        }
+        */
+    }
+}

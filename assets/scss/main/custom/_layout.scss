@@ -1,0 +1,43 @@
+/**
+ * Layout
+ */
+
+.elementor-widget-wrap {
+
+    .auto-inline-inner-section {
+
+        &.elementor-inner-section {
+            display: inline-block;
+            width: auto;
+        }
+
+        &.vertical-align-middle {
+            vertical-align: middle;
+            align-self: center;
+        }
+    }
+}
+
+body {
+    min-width: 320px;
+
+    .elementor-section {
+
+        .elementor-container {
+            padding: 0;
+        }
+    }
+
+    @media (max-width:9000px) and (min-width:1301px) {
+
+        .elementor-widget-wrap {
+            .header-nav-links-section,
+            .header-nav-buttons-section {
+                display: inline-block;
+                width: auto;
+                vertical-align: middle;
+                align-self: center;
+            }
+        }
+    }
+}

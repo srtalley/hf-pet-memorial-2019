@@ -1,0 +1,15 @@
+/**
+ * Mixins
+ */
+
+// Copied from Storefront Theme
+@mixin clearfix {
+	&::before,
+	&::after {
+		content: '';
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
+}

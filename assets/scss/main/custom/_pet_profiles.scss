@@ -1,0 +1,148 @@
+/**
+ * Pet Profiles
+ */
+
+ .woocommerce-pet-profiles {
+
+     .woocommerce-MyAccount-content {
+
+        h2.my-account-section-title {
+            margin: 0 0 30px 0;
+        }
+
+        .pet-profiles-management-introduction {
+            margin: 0 0 40px 0;
+
+            span.count {
+                font-weight: 600;
+            }
+        }
+
+        .extra-pet-membership-button-outer {
+            margin: 0 0 40px 0;
+
+            .extra-pet-membership-button {
+                padding: 15px 30px;
+                background: $btn_background_color;
+                color: #fff;
+                font-weight: 500;
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+                border-radius: 7px;
+                line-height: 1.5;
+
+                &:hover {
+                    background: lighten( $btn_background_color, 5% );
+                }
+            }
+        }
+
+        .pet-profiles-table-outer {
+            margin: 0 0 40px 0;
+
+            table {
+                box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+                border-radius: 7px;
+                border: none;
+
+                &.pet-profiles-table-mobile {
+                    margin-bottom: 40px;
+                }
+
+                @media (min-width: 1101px) {
+                    &.pet-profiles-table-mobile {
+                        display: none;
+                    }
+                }
+
+                @media (min-width:1001px) and (max-width: 1100px) {
+
+                    &.pet-profiles-table-desktop {
+                        display: none;
+                    }
+
+                    &.pet-profiles-table-mobile {
+                        display: table;
+                    }
+                }
+
+                @media (min-width:801px) and (max-width: 1000px) {
+
+                    &.pet-profiles-table-desktop {
+                        display: table;
+                    }
+
+                    &.pet-profiles-table-mobile {
+                        display: none;
+                    }
+                }
+
+                @media (max-width: 800px) {
+
+                    &.pet-profiles-table-desktop {
+                        display: none;
+                    }
+
+                    &.pet-profiles-table-mobile {
+                        display: table;
+                    }
+                }
+
+                th {
+                    background: $main_color;
+                    font-weight: 600;
+                    padding: 20px;
+                    border: none;
+                }
+
+                td {
+                    border: none;
+                    padding: 20px;
+                    font-weight: 400;
+                }
+
+                .actions {
+                    .button {
+                        margin: 0 0 10px 10px;
+
+                        &.pp-delete-btn {
+                            background: #ed5a50;
+
+                            &:hover {
+                                background: #fd6a60;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .pet-profiles-create-btn-outer {
+            margin: 0 0 40px 0;
+
+            .pet-profiles-create-btn {
+                padding: 15px 30px;
+                background: #27ba58;
+                color: #fff;
+                font-weight: 500;
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+                border-radius: 7px;
+                line-height: 1.5;
+
+                &:hover {
+                    background: lighten( #27ba58, 5% );
+                }
+            }
+        }
+     }
+
+     .pet-profiles-edit-form {
+
+        .delete-button {
+            background: #ed5a50;
+
+            &:hover {
+                background: #fd6a60;
+            }
+        }
+     }
+ }

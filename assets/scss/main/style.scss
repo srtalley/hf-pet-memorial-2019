@@ -1,0 +1,46 @@
+/*!
+	Theme Name: HF Pet Memorial 2019
+	Theme URI: https://pineapplewebdesign.co.uk
+	Description: The 2019 theme for HF Pet Memorial website, based on the Elementor Hello Theme.
+	Author: Pineapple Web Design
+	Author URI: https://pineapplewebdesign.co.uk
+	Version: 1.2.0
+	Stable tag: 1.2.0
+	Requires at least: 4.7
+	Tested up to: 5.0
+	License: GNU General Public License v3 or later.
+	License URI: https://www.gnu.org/licenses/gpl-3.0.html
+	Text Domain: hf-pet-memorial-2019
+	Tags: flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Style - include Theme style
+   ========================================================================== */
+
+// Frameworks - Added by PWD
+@import "susy";
+
+// Root
+@import "custom/custom_variables";
+@import "reset/variables";
+
+// Base CSS (Based on Normalize)
+@import "reset/reset";
+
+// Comments
+@import "reset/comments";
+
+// Forms/
+@import "reset/forms";
+
+// Table
+@import "reset/table";
+
+// List
+@import "reset/list";
+
+// WordPress
+@import "reset/wordpress";
+
+// Custom Code for Your Website
+@import "custom/custom";

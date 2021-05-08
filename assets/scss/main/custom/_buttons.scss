@@ -1,0 +1,31 @@
+/**
+ * Buttons
+ */
+
+body,
+.woocommerce {
+    .btn,
+    .button,
+    button,
+    button.btn,
+    button.button,
+    button.button.alt,
+    input[type="button"],
+    input[type="submit"] {
+
+        background: $btn_background_color;
+        padding: 12px 28px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+
+        &:hover {
+            background: lighten( $btn_background_color, 5% );
+            color: #444;
+        }
+    }
+}

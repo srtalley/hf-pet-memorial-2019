@@ -1,0 +1,46 @@
+/* Pre Define variables for your theme.
+any values defined here will take precedence over variables definitions.
+========================================================================== */
+// add your default variable values here.
+
+// Fonts
+$body_font: 'Montserrat', 'Helvetica', sans-serif;
+$heading_font: $body_font; //'Merriweather', serif;
+
+// Colors
+$main_color: #57cbec; //#588564;
+$secondary_color_1: #27ba58;
+$secondary_color_2: #ed5a50;
+$secondary_color_3: #f25549;
+$darkest_text_color: #000000;
+$dark_shades: #333333;
+$dark_accent: #444444;
+$light_accent: #dddddd;
+$light_shades: #f2f2f2;
+$background_color: #FFFFFF;
+
+// Font Colors
+$body_font_color: $darkest_text_color;
+$heading_font_color: $main_color;
+
+// Font Sizes
+$body_font_size: 18px;
+$small_font_size: $body_font_size - 4;
+$heading_font_size: $body_font_size + 4;
+
+// Font Weights
+$font_weight_light: 300;
+$font_weight_regular: 400;
+$font_weight_bold: 600;
+
+// Line Spacing
+$body_line_height: 1;
+$paragraph_line_height: 1.5;
+$heading_line_height: 1.5;
+
+// Button Colors
+$btn_background_color: $main_color;
+$link_color: darken( desaturate( adjust-hue( $main_color, -4% ), 14% ), 20% );
+$link_hover_color: lighten( saturate( adjust-hue( $link_color, 2% ), 7% ), 10% );
+
+$form_background: lighten( $main_color, 25% );
