@@ -74,7 +74,7 @@ add_action( 'after_setup_theme', 'hf_pet_memorial_2019_setup' );
 if ( ! function_exists( 'hf_pet_memorial_2019_scripts_styles' ) ) {
 	function hf_pet_memorial_2019_scripts_styles() {
 		if ( apply_filters( 'hf_pet_memorial_2019_enqueue_style', true ) ) {
-			wp_enqueue_style( 'hf-pet-memorial-2019-style', get_stylesheet_uri() );
+			wp_enqueue_style( 'hf-pet-memorial-2019-style', get_stylesheet_uri(), array(), wp_get_theme()->get('Version') );
 		}
 	}
 }
